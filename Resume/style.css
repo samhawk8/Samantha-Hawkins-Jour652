@@ -7,49 +7,85 @@ body {
   color: #444;
 }
 
+/* Main page container */
+#container {
+ width:100%;
+ max-width:1200px;
+ margin: 0 auto;
+ padding-bottom:50px;
+}
+
 /*Samantha Hawkins*/
-h1 {
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /*Student at University of Maryland*/
-strong {
+#title {
   color: #33485e;
   text-transform: uppercase;
   font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 0 0;
 }
 
 /*Experience*/
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: white;
   font-weight: 400;
+  margin: 20px 0 10px 0;
+  width: 70%;
+  min-width:300px;
+  padding-left:20px;
 }
 
 /*Job Titles*/
-h3 {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /*Titles of Organizations*/
-h4 {
+.organization {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /*Dates*/
-h5 {
+.date {
   font-weight:400;
   font-size:1em;
+  margin: 2px 0 0 0;
 }
 
-/*Education and Skills*/
-ul {
+/*Contact info*/
+.menu {
   font-size:1em;
+  margin: 0;
+  padding: 0;
+  text-align:center;
 }
+
+.menu li {
+  display: inline;
+}
+
+/* Education section */
+#degrees {
+ margin: 5px 0 0 0;
+}
+
+/* Skills section section */
+#do {
+ margin: 5px 0 0 0;
