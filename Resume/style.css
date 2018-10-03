@@ -37,6 +37,16 @@ body {
   margin: 20px 0 0 0;
 }
 
+.heading {
+  background-color: #33485e;
+  color: white;
+  font-weight: 400;
+  margin: 20px 0 10px 0;
+  width: 70%;
+  min-width:300px;
+  padding-left:20px;
+}
+
 /*Experience*/
 .sectionheader {
   font-size: 1.5em;

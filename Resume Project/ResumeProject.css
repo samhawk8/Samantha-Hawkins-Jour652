@@ -1,0 +1,58 @@
+
+
+  .contact {
+    text-align: center;
+    width: 100%;
+  }
+
+  .sectionheader {
+    font-size: 2em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: white;
+    font-weight: 100;
+    margin: 20px 0 10px 0;
+    width: 100%;
+    min-width:300px;
+    text-align: center;
+  }
+
+
+  .heading {
+    padding: 3px 0px;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+
+
+  }
+
+  /*Job Titles*/
+  .jobtitle {
+    font-weight: 100;
+    font-size: 1.5em;
+  }
+
+  /*Titles of Organizations*/
+  .organization {
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  /*Dates*/
+  .date {
+    font-weight:400;
+    font-size:1em;
+  }
+
+.description {
+  font-weight:400;
+  font-size:.2em;
+}
+
+.content
+{
+  font-size: 1em;
+}
