@@ -88,6 +88,12 @@ font-size: 1em;
     font-weight: 700;
     text-transform: uppercase;
 }
+
+footer {
+    font-size: .3em;
+    text-align:center;
+
+  }
  /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
