@@ -71,9 +71,12 @@
   <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1op03n2auKnAwvyDE8z1BZs1DnaIMhHk5_4m65ktQx94&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
   <br><br>
+<div class="googlemap">
+<h1>Significant Wildfires of the last 10 years</h1>
 
 <iframe width="500" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1C0d48LaxvfV6CMDiTPXXdtDO1xIw_MLcbIIKJ6bW&amp;viz=MAP&amp;h=false&amp;lat=40.67178074292755&amp;lng=-105.13793619761339&amp;t=1&amp;z=5&amp;l=col3&amp;y=4&amp;tmplt=5&amp;hml=GEOCODABLE"></iframe>
 
+</div>
 <br><br>
 
 <!-- Acres Consumed-->
@@ -99,28 +102,22 @@
 <!-- PIE CHART of causes-->
   <div class="graphic-container">
     <h2>Fire Causes</h2>
-  <div id="chart_area_stacked.js"></div>
+  <div id="CausePie"></div>
     <em>Source: National Interagency Fire Center</em>
 
-  <!-- PIE CHART of lands-->
-    <div class="graphic-container">
-  <h2>Fire Causes</h2>
-  <div id="LandsPie"></div>
-      <em>Source: National Interagency Fire Center</em>
-
-<!-- PIE CHART of lands by acres-->
-  <div class="graphic-container">
-  <h2>Fire Causes</h2>
-    <div id="AcresPie"></div>
-        <em>Source: National Interagency Fire Center</em>
-
+<br><br>
 <!-- Bar chart of land types-->
     <div class="graphic-container">
     <h2>How many fires occur on state vs. federal lands?</h2>
     <div id="Lands"></div>
     <em>Source: National Interagency Fire Center</em>
+    <!-- PIE CHART of lands-->
+      <div class="graphic-container">
+    <h2></h2>
+    <div id="LandsPie"></div>
+        <em>Source: National Interagency Fire Center</em>
+    <br><br>
 
-  <br><br>
 
   <!-- Bar chart of lands by acres-->
   <div class="graphic-container">
@@ -128,7 +125,11 @@
   <div id="LandAcres"></div>
   <em>Source: National Interagency Fire Center</em>
 
-<br><br>
+<!-- PIE CHART of lands by acres-->
+<div class="graphic-container">
+<h2></h2>
+  <div id="AcresPie"></div>
+      <em>Source: National Interagency Fire Center</em>
 
 
 </div>
@@ -214,7 +215,7 @@ var chart3 = c3.generate({
         onmouseout: function (d, i) { console.log("onmouseout", d, i); }
       },
       color: {
-        pattern: ['#800000', '#ee6a4b', '#ee6a4b', '#60c4b2', '#973895']
+        pattern: ['#800000', '#e67300', '#ee6a4b', '#60c4b2', '#973895']
       }
 
 
@@ -235,7 +236,7 @@ var chart3 = c3.generate({
             onmouseout: function (d, i) { console.log("onmouseout", d, i); }
           },
           color: {
-            pattern: ['#800000', '#ee6a4b', '#ee6a4b', '#60c4b2', '#973895']
+            pattern: ['#800000', '#e67300', '#ee6a4b', '#60c4b2', '#973895']
           }
 
 
@@ -255,7 +256,7 @@ var chart3 = c3.generate({
                 onmouseout: function (d, i) { console.log("onmouseout", d, i); }
               },
               color: {
-                pattern: ['#800000', '#ee6a4b', '#ee6a4b', '#60c4b2', '#973895']
+                pattern: ['#800000', '#e67300', '#ee6a4b', '#60c4b2', '#973895']
               }
 
 
@@ -280,7 +281,7 @@ var chart3 = c3.generate({
          type: 'bar'
        },
        color: {
-         pattern: ['#800000', '#ee6a4b', '#ee6a4b', '#60c4b2', '#973895']
+         pattern: ['#800000', '#FF4500', '#FF8C00', '#ffcc66', '#e60000']
      },
            axis : {
                y : {
@@ -308,7 +309,7 @@ var chart3 = c3.generate({
              type: 'bar'
            },
            color: {
-             pattern: ['#800000', '#ee6a4b', '#ee6a4b', '#60c4b2', '#973895']
+             pattern: ['#800000', '#FF4500', '#FF8C00', '#ffcc66', '#e60000']
          },
                axis : {
                    y : {
