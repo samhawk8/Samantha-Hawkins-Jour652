@@ -1,6 +1,7 @@
-.graphic-container {
+.graphs {
+  display:block;
   text-align: center;
-  width:75%;
+  width:50%;
   margin: 0 auto;
 }
 
@@ -8,4 +9,61 @@
   text-align: center;
   width:75%;
   margin: 0 auto;
+}
+h1 {
+  text-align:center;
+}
+
+p {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.graphic-container {
+  margin-right: 10em;
+  margin-left: 10em;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: ;
+  clear: both;
+  display: table;
+
+}
+
+.container {
+  margin: 0 auto;
+}
+
+blockquote {
+  font-weight:bold;
+  margin-left:5em;
+  margin-right:5em;
+}
+
+em {
+  text-align: center;
+  margin: 0 auto;
+}
+body
+{
+
+}
+
+h3 {
+  text-align:center;
+  margin: 0 auto;
+}
+
+h5
+{
+  text-align:center;
 }
