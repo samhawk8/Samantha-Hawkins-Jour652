@@ -105,7 +105,7 @@ height:100%;
 
 .caption {
   width:100%;
- max-width:900px;
+ max-width:600px;
  margin:0 auto;
  padding-bottom:30px;
  font-family: 'Montserrat', sans-serif;
@@ -129,6 +129,20 @@ height:100%;
 
 .blue {
  color: #0052a5;
+}
+
+h4
+{ font-weight:700;
+  text-align:left;
+}
+
+.box {
+  width: 900px;
+    border-color: #D3D3D3;
+    padding: 5px;
+    margin: 5px;
+    margin: 0 auto;
+    background-color: #D3D3D3;
 }
 
 body {
