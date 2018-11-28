@@ -136,6 +136,9 @@ h4
   text-align:left;
 }
 
+em {
+  font-weight:400;
+}
 .box {
   width: 900px;
     border-color: #D3D3D3;
@@ -157,4 +160,6 @@ footer {
   padding:25px;
   font-family: 'Montserrat', sans-serif;
   text-align:center;
+  width: 100%;
+  font-weight:400;
 }
