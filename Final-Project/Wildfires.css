@@ -1,9 +1,92 @@
 .graphs {
   display:block;
   text-align: center;
-  width:50%;
+  width:75%;
   margin: 0 auto;
 }
+
+.parallax {
+ background-image: url("images/background.jpg");
+ min-height: 1000px;
+  background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width:100%
+}
+
+.everything {
+  margin:0 auto;
+  background-color:white;
+  width:960px;
+
+}
+
+.firstcharacter {
+  color: #100;
+  float: left;
+  font-family: Georgia;
+  font-size: 50px;
+  line-height: 50px;
+  padding-right: 4px;
+  padding-left: 3px;
+}
+
+.center {
+  text-align:center;
+}
+
+    body {
+      background-image: url("images/background.jpg");;
+    }
+
+  /* BLOCKQUOTE */
+    .main {
+      position : relative;
+    }
+
+    .mb-wrap {
+      margin : 20px auto;
+      padding : 5px;
+      position : relative;
+      width : 300px;
+    }
+
+    .mb-wrap p {
+      margin : 0;
+      padding : 0;
+    }
+
+    .mb-wrap blockquote {
+      margin : 0;
+      padding : 0;
+      position : relative;
+    }
+
+    .mb-style-2 blockquote p {
+      box-shadow : 0 -6px 0 #E8E4E4;
+      color : black;
+      display : inline;
+      font-family : Baskerville, Georgia, serif;
+      font-style : italic;
+      font-size : 28px;
+      line-height : 46px;
+    }
+
+    .mb-attribution {
+      text-align : right;
+    }
+
+     .mb-author {
+      color :black;
+      font-size : 18px;
+      font-weight : bold;
+      padding-top : 5px;
+      text-transform : uppercase;
+    }
+
+    /* END BLOCKQUOTE */
+
 
 .graph2 {
   width:70%;
@@ -17,9 +100,21 @@
   width:75%;
   margin: 0 auto;
 }
+
 h1 {
   text-align:center;
 }
+
+h2 {
+  text-align:center;
+  text-transform:uppercase;
+}
+
+h3 {
+  text-align:center;
+  text-transform:uppercase;
+}
+
 
 p {
   margin-left: 10em;
@@ -31,59 +126,33 @@ p {
   margin-left: 10em;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: ;
-  clear: both;
-  display: table;
-
-}
-
 .container {
   margin: 0 auto;
 }
 
-blockquote {
-  font-weight:bold;
-  margin-left:5em;
-  margin-right:5em;
-}
 
 em {
   text-align: center;
   margin: 0 auto;
 }
-body
-{
 
-}
-
-h3 {
-  text-align:center;
-  margin: 0 auto;
-}
 
 h5
 {
   text-align:center;
 }
 
-#CampFire {
-  margin:0 auto;
-  text-align:center;
+.column {
+  float:left;
+    width: 50%;
 }
 
-table
- {margin: 0 auto;
- text-align:center;
-  width:50%}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 #Fire
 
@@ -91,15 +160,16 @@ table
  width:100%
 }
 
-.Center {
+.center {
   margin:0 auto;
   text-align:center;
 }
 
-#Table {
+
+Table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
-      width: 100%;
+      width: 40%;
       margin:0 auto;}
 
   td, th {
@@ -112,6 +182,9 @@ table
       background-color: #dddddd;
   }
 
-  {margin:0 auto;
-  text-align:center;}
+
+footer {
+  background-color:black;
+  text-align:center;
+  color:white;
 }
