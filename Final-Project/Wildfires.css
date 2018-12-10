@@ -37,8 +37,6 @@ span.border {
   margin:0 auto;
   background-color:white;
   width:960px;
-  font-family: 'Abel', sans-serif;
-  font-size:20px;
 
 }
 
@@ -75,6 +73,8 @@ em {
 }
 
     body {
+      font-family: 'abel', sans-serif;
+      font-size:20px;
     }
 
   /* BLOCKQUOTE */
