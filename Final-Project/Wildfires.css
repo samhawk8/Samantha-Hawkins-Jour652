@@ -12,15 +12,53 @@
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-width:100%
+width:100%;
+}
+
+.title {
+  position:absolute;
+  left:0;
+  top:50%;
+  width:100%;
+  text-align:center;
+}
+
+span.border {
+  background-color:#111;
+  color:#fff;
+  padding:18px;
+  font-size:25px;
+  letter-spacing:10px;
+}
+
 }
 
 .everything {
   margin:0 auto;
   background-color:white;
   width:960px;
+  font-family: 'Abel', sans-serif;
+  font-size:20px;
 
 }
+
+.caption {
+  font-size:.6em;
+  text-align:center;
+}
+
+em {
+  font-size:.6em;
+  text-align:center;
+  margin: 0 auto;
+  }
+
+.columncaption {
+    font-size:.6em;
+    text-align:center;
+
+}
+
 
 .firstcharacter {
   color: #100;
@@ -37,7 +75,6 @@ width:100%
 }
 
     body {
-      background-image: url("images/background.jpg");;
     }
 
   /* BLOCKQUOTE */
@@ -103,16 +140,20 @@ width:100%
 
 h1 {
   text-align:center;
+  font-size:2em;
+  text-transform:uppercase;
 }
 
 h2 {
   text-align:center;
   text-transform:uppercase;
+  font-size:1.5em;
 }
 
 h3 {
   text-align:center;
   text-transform:uppercase;
+  font-size:1.5em;
 }
 
 
@@ -130,16 +171,57 @@ p {
   margin: 0 auto;
 }
 
+.explanation {
+  font-size:.8em;
+  margin-left:10px;
+  margin-right:10px;
+  border-style:solid;
+  border-color:black;
+  border-width:thin;
+  border-left:6px;
+  border-right:6px;
 
-em {
-  text-align: center;
-  margin: 0 auto;
+}
+
+.explanation2 {
+  font-size:.8em;
+  margin-left:-70px;
+  margin-right:-70px;
+  border-style:solid;
+  border-color:black;
+  border-width:thin;
+  border-left:6px;
+  border-right:6px;
+  text-align:left;
+
 }
 
 
 h5
 {
   text-align:center;
+}
+
+
+.pic {
+  text-align:center;
+}
+
+.red {
+  color:#A31208;
+}
+
+
+.column1 {
+  float:left;
+    width: 50%;
+    margin-left:-85px;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .column {
@@ -154,9 +236,7 @@ h5
 }
 
 
-#Fire
-
-{
+#Fire {
  width:100%
 }
 
@@ -165,9 +245,16 @@ h5
   text-align:center;
 }
 
+.navbar {
+  position:fixed;
+  width:100%;
+  z-index: 500;
+  font-family: 'Abel', sans-serif;
+}
+
 
 Table {
-      font-family: arial, sans-serif;
+      font-family: 'abel', sans-serif;
       border-collapse: collapse;
       width: 40%;
       margin:0 auto;}
@@ -179,12 +266,16 @@ Table {
   }
 
   tr:nth-child(even) {
-      background-color: #dddddd;
+      background-color: #6F9D79;
+  }
+  tr:nth-child(odd) {
+      background-color: #DBE2DD;
   }
 
 
 footer {
-  background-color:black;
+  background-color:#DBE2DD;
   text-align:center;
-  color:white;
+  color:black;
+  font-style:'abel'
 }

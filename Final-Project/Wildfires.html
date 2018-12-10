@@ -8,6 +8,8 @@
   <meta name="description" content="Bootstrap template">
   <meta name="author" content="Samantha Hawkins">
 
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
   <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
@@ -31,61 +33,17 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Wildfire Policy</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <a class="navbar-brand" href="#">Wildfire Policy in the United States</a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
-<!--go away
-<div id="container">
-  <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1op03n2auKnAwvyDE8z1BZs1DnaIMhHk5_4m65ktQx94&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
-  <br><br>
-<div class="googlemap">
-<h1>Significant Wildfires of the last 10 years</h1>
 
-<iframe width="500" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1C0d48LaxvfV6CMDiTPXXdtDO1xIw_MLcbIIKJ6bW&amp;viz=MAP&amp;h=false&amp;lat=40.67178074292755&amp;lng=-105.13793619761339&amp;t=1&amp;z=5&amp;l=col3&amp;y=4&amp;tmplt=5&amp;hml=GEOCODABLE"></iframe>
-
+<div class="parallax">
+  <div class="title">
+    <span class="border">CONTROLLING THE UNCONTROLLABLE</span>
 </div>
-
-<div id="Fire">
-<img src="images/coverphoto.jpg" alt="Coverphoto" width=100%>
 </div>
-
-<br><br>
--->
-
-<div class="parallax"></div>
-
 <div class="everything">
   <br> <br>
 <p>
@@ -94,12 +52,14 @@
 <p>My great-grandfather built a cabin outside the park 50 years earlier, and that August when my parents drove through Yellowstone, my mother watched the forest she spent her summers in get consumed by flames. The fires burned nearly 794,000 acres, leaving the impression that America's first national park had been destroyed.</p>
 </div>
 
-<p>The 1988 fires were something of a legend, so I grew up hearing stories of the apocalyptic scene through my parent’s eyes. Each summer, when we drove through the park, my mother would recount the story. But each year the scene couldn’t quite form in my mind—it was hard to believe that such beauty could rise from the ashes.</p>
+<p>The 1988 fires were something of a legend, so I grew up hearing stories of that apocalyptic scene. Each summer, when we drove through the park, my mother would recount the story. But each year the scene couldn’t quite form in my mind—it was hard to believe that such beauty could rise from the ashes.</p>
 
 <div class="center">
 <img src="images/yellowstone2.jpg" alt="Yellowstone in flames">
+<p class="caption">Crown fire at Grant Village in Yellowstone National Park, July 23, 1988. <Credit: Jeff Henry, National Park Service</p>
 
-<br> <br> <br> <br> <br> <br>
+<br> <br> <br>
+
 
 <p> &#9632 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &#9632 &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &#9632 &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &#9632 &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &#9632; </p>
 
@@ -114,7 +74,7 @@
 
 <!-- Acres Consumed-->
 <div class="graphs">
-  <h2>Acres Consumed by Fire</h2>
+  <h2>Acres <span class="red">Consumed</span> by Fire</h2>
   <p>1977-2017</p>
   <div id="AcresConsumed"></div>
   <em>Source: National Interagency Fire Center</em>
@@ -124,19 +84,19 @@
 
 <p>But, because wildfires have always been a part of our ecosystems, the frequency of fires remains fairly constant.</p>
 
-<!--2 column-->
-<div class="row">
-  <div class="column">
-    <p>Change is important for a healthy forest, and like Yellowstone, many ecosystems are dependent on periodic exposure to fire. Wildfires clear competing vegetation, return essential nutrients to the soil and pave the way for new growth. </p>
-  </div>
-  <div class="column" >
-    <p><img src="images/newgrowth.jpg" alt="Yellowstone in flames"></p>
-  </div>
+
+<p>Change is important for a healthy forest, and like Yellowstone, many ecosystems are dependent on periodic exposure to fire. Wildfires clear competing vegetation, return essential nutrients to the soil and pave the way for new growth. </p>
+
+
+<div class="pic">
+<p><img src="images/newgrowth.jpg" alt="Yellowstone in flames"></p>
+
+<p class="caption">New growth in Yellowstone in the spring of 1989. Credit: Jim Peaco, National Park Service</p>
 </div>
 
 <br>
 
-<h2>Historic Wildfire Management</h2>
+<h1><span class="red">Historic</span> Wildfire Management</h1>
 <br>
 
 <p><span class="firstcharacter">A</span>fter a few devastating fires in the early 1900s, land management systems had a zero-tolerance policy when it came to wildfires. Every flame was snuffed in the first half of the 20th century, halting natural cycles that had regulated forest ecosystems for thousands of years.</p>
@@ -147,31 +107,32 @@
 
 <p>In the 60s, an increasing amount of research proved the essential need for wildfires, and a group of ecologists advised the National Park Service to restore the natural balance that once existed in its parks by monitoring naturally-caused wildfires, rather than suppressing them. New policies based on the changing scientific consensus were implemented, and natural fires were monitored, which proved to be effective management in many parks.</p>
 
-<p>But, by the time this was understood, many forests, including Yellowstone were itching for a massive burn.</p>
+<p>But by the time this was understood, many forests, including Yellowstone, were itching for a massive burn.</p>
 
-<p>According to the National Park Service, Yellowstone management watched the first fires in June, using models that had been constructed from years of data. But the models couldn’t predict how the fires would spread that summer—with a severe drought and fierce, relentless winds. Eventually, Yellowstone was forced to abandon the model’s suggestions and fight the rapidly spreading flames.</p>
+<p>According to the National Park Service, Yellowstone management watched the first fires in June of 1988, using models that had been constructed from years of data. But the models couldn’t predict how the fires would spread that summer—with a severe drought and fierce, relentless winds. Eventually, Yellowstone was forced to abandon the model’s suggestions and fight the rapidly spreading flames.</p>
 
 
 <div class="center">
 <img src="images/yellowstone.jpg" alt="Yellowstone in flames" width=600px;>
+<p class="caption">Yellowstone's lodgepole pines ablaze. Credit: Bozeman Daily Chronicle</p>
 </div>
 
 <p>The fires were unprecedented and out of control, and when a snowstorm finally hit in September, over one-third of the park had been ravaged.</p>
 
 <div class="center">
 <img src="images/afteryellowstone.jpg" alt="Yellowstone in flames" width=600px;>
+<p class="caption">Nov. 1, 1988 in Yellowstone. Credit: Bob Stevenson, National Park Service. </p>
 </div>
-
 <br> <br>
 
-<h2>Current Wildfire Management</h2>
+<h1> <span class="red">Current</span> Wildfire Management</h1>
 <br>
 <p><span class="firstcharacter">T</span>hat was 1988, and the United States spent $578,926,00 to suppress wildfires that year. Last year, we spent over $3 billion.</p>
 
-
+<br>
 <!-- Supression Costs-->
 <div class="graphs">
-  <h3>WILDFIRE SUPPRESSION COSTS</h3>
+  <h3>WILDFIRE <span class="red">Suppression</span> COSTS</h3>
   <p>1985-2017</p>
   <div id="Costs"></div>
   <em>Source: National Interagency Fire Center</em>
@@ -187,19 +148,20 @@
 
 <p>Camp Fire, the deadliest and most destructive wildfire in California's history, began on Nov. 8 of this year, extremely late in the wildfire season. It ravaged the state, fueled by fierce winds and dry temperatures, killing 88 people and destroying about 19,000 homes. It was unable to be contained until Nov. 25.</p>
 
-<p> President Donald Trump blamed the fires on California's mismanagement of forests. However, California only owns and manages 3% of forests in the state, the federal government owns and manages 57%</p>
+<p> President Donald Trump blamed the fires on California's mismanagement of forests. However, California only owns and manages 3% of forests in the state, the federal government owns and manages 57%.</p>
 
 <br>
 
-<div class="row">
-  <div class="column">
+<div class="row1">
+  <div class="column1">
     <p><img src="images/californiamap.jpg" alt="Map of land management in California"></p>
+
   </div>
-  <div class="column">
+  <div class="column1">
     <p><img src="images/Trump.jpg" alt="President Trump Tweet" width=400px;></p>
   </div>
 </div>
-
+<p class="caption">Map of land ownership in California. Credit: Cal Fire, 2010.  </p>
 <br>
 
 <p>Federal wildfire policies and funds fall under five agencies: The Department of the Interior, the Bureau of Indian Affairs, the Bureau of Land Management, the National Park Service and the U.S. Fish and Wildlife Service.</p>
@@ -207,26 +169,28 @@
 <p>All other wildfires—on state, local, or private lands--are under the jurisdiction of the state.</p>
 
 <div class="publiclands">
-<img src="images/federallandscopy.jpg" alt="Map of land management in the United States" width=100%>
+<img src="images/federallandscopy.jpg" alt="Map of land management in the United States" width=100%><p class="caption">Map of all federally owned land in the United States. Credit: National Atlas of the United States</p>
 </div>
 
 
 <br><br>
-<h3>Fires on state vs. federal lands</h3>
+<h3>Fires on state <span class="red">vs.</span> federal lands</h3>
 <br>
-<!-- Bar chart of land types-->
+
     <div class="row">
       <div class="column">
     <h5>Number of fires</h5>
     <div id="Lands"></div>
+    <div class="columncaption">Source: National Interagency Fire Center</div>
 
   </div>
-    <!-- PIE CHART of lands-->
+
     <div class="column">
     <h5>Acres Consumed</h5>
     <div id="LandAcres"></div>
+        <div class="columncaption">Source: National Interagency Fire Center</div>
 </div>
-<!-- PIE CHART of lands by acres-->
+
 </div>
 
 
@@ -242,13 +206,13 @@
 <blockquote><p>"What happens nowadays, because people live everywhere— they let a fire burn less than 5% of the time."</p>
 </blockquote>
 
-</div><!--#mb-wrap-->
+</div>
 
       <div class="mb-attribution">
         <p class="mb-author">
           Dr. David L. Peterson
         </p>
-      </div><!-- #mb-attribution-->
+      </div>
 
 
 <p>Joe Carlson, a firefighter with the Oregon Department of Forestry, agreed that the system runs incredibly smoothly: “When you show up on a fire, the first thing I do is like, alright, what radio frequencies are we on? Who's in charge? Who's my boss and his boss, and then once you figure that out, you just get plugged in and they give you a little assignment and you go to work."</p>
@@ -256,15 +220,35 @@
 <p>According to Dr. Peterson, agencies use computer models that are designed to assess risk to natural resources such as trees, water, air quality, animals, infrastructure, and, of course, us. “What happens nowadays,” Peterson says, “because people live everywhere— they let a fire burn less than 5% of the time.”</p>
 
 <p>Keep in mind, this 95% suppression occurs on federal lands. On nonfederal lands, suppression policies are 100% in almost every state, because too many resources are at risk.</p>
+
+<br>
+
+<div class="googlemap">
+<h3><span class="red">Significant</span> Wildfires of the last 10 years</h3>
+
+
+<div class="explanation2">
+<p>Wildfires are becoming more unpredictable, costly and deadly as our climate changes and more resources are at risk of burning. The map below shows some of the most significant wildfires within the last ten years.</p>
+
+</div>
+
+<br>
+
+<iframe width="500" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1C0d48LaxvfV6CMDiTPXXdtDO1xIw_MLcbIIKJ6bW&amp;viz=MAP&amp;h=false&amp;lat=40.67178074292755&amp;lng=-105.13793619761339&amp;t=1&amp;z=5&amp;l=col3&amp;y=4&amp;tmplt=5&amp;hml=GEOCODABLE"></iframe>
+</div>
+
 <br><br>
-<h2>Navigating the Complexities of the Wildland-Urban Interface</h2>
+<h1>Navigating the <span class="red">Complexities</span> of the Wildland-Urban Interface</h1>
+
+<br>
 
 <p><span class="firstcharacter">O</span>ur landscape is changing as we are suburbanizing forests and wildlands. Construction is increasing in previously undeveloped areas, and whole communities are surrounded by dry fuel build-up. This intersection of human development and natural terrain is called the Wildland-Urban Interface (WUI) and currently constitutes 10% of the United States, and 33% of all homes.</p>
 
 <p>This is why California's Camp Fire was so deadly, it began in the Wildland-Urban Interface and spread down into more urbanized areas.</p>
 
 <div class="center">
-<img src="images/UWICalif.jpg" alt="Camp Fire Map" width=60%;>
+<img src="images/campfiremap.jpg" alt="Camp Fire Map" width=60%;>
+<p class="caption">California's Camp Fire started in the WUI and rapidly spread. Credit: Google Maps.</p>
 </div>
 
 <br>
@@ -277,12 +261,19 @@
 
 <p>Wildfire mitigation is happening at both state and federal levels, and it’s effective in lowering the severity of the fire. But the sheer amount of forested land makes it so the chances are slim that the exact treated area will burn. Research done at the University of Colorado-Boulder shows that less than 1% of treated land has ever experienced a wildfire.  </p>
 
-<p>  <div class="graph2">
-    <h3>Wildfire Mitigation on federal lands</h3>
+ <div class="graph2">
+    <h3>Wildfire <span class="red">Mitigation</span> on federal lands</h3>
+    <p>(In millions of acres rounded to the nearest thousand)</p>
   <div id="Mitigation"></div>
     <em>Source: National Interagency Fire Center</em>
 </div>
-</p>
+
+<div class="explanation">
+  <p>The above chart shows the amount of acres that have been treated on federal land by controlled burning (fire), tree thinning (mechanical), and seeding and herbicides (other). It shows the same for land treated in the WUI. </p>
+</div>
+
+<br><br>
+
 
 <p>Dr. Peterson estimates that probably 10-15% of what needs to be done has been done. “Federal and state agencies are already doing what they need to do, but they can’t do it fast enough.”</p>
 
@@ -291,27 +282,26 @@
 <p>The root of the problem is the rising temperatures, it’s the amount of carbon and methane that we put into the atmosphere. According to research done at the University of Idaho, 50% of the increase in area burned by wildfires in the Western U.S. can be attributed to climate change. </p>
 
 <div class="center">
-<img src="images/climatechange.jpg" alt="Climate Change Graph" width=50%;>
+<img src="images/climatechange.jpg" alt="Climate Change Graph" width=50%;> <p class="caption">Scientific consensus on climate change shows long-term trends of rising global temperatures. Credit: NASA/NOAA</p>
 </div>
-<em>https://climate.nasa.gov/scientific-consensus/</em>
 
-Graph from NASA, showing consensus on rising temperatures
+<br>
 
 <p>“If we want to talk about reversing or even stabilizing the trends, then that [climate change] is where we are going to look.” Schoennagel said. </p>
 
 
 <section class="main">
 <div class="mb-wrap mb-style-2">
-<blockquote><p>"All federal policy focuses on trees. We need to focus on adaption.”</p>
+<blockquote><p>"All federal policy focuses on trees. <span class="red"> We need to focus on adaption.</span>”</p>
 </blockquote>
 
-</div><!--#mb-wrap-->
+</div>
 
       <div class="mb-attribution">
         <p class="mb-author">
           Dr. Tania Schoennagel
         </p>
-      </div><!-- #mb-attribution-->
+      </div>
 
 
 
@@ -326,20 +316,20 @@ Graph from NASA, showing consensus on rising temperatures
 
 <p>Oregon Firefighter Joe Carlson also mentioned that prescribed burning and thinning is not most effective in helping people survive fires: "Do we need more burning, less burning? We need more firewise."</p>
 
-<p>Firewise is a program that teaches people how to landscape around their homes. Carlson says if they see someone with propane tanks, cars, and a cedar roof then the firefighters can't do anything about it, it's not defensible.</p>
+<p>Firewise is a program that teaches people how to landscape around their homes. Carlson says if they see someone with propane tanks, cars and a cedar roof then firefighters can't do anything about it; it's not defensible.</p>
 
 <p>"The loss of property is much more prevalent in California. In Oregon and Washington we didn't lose anything of value this year. We lost some barns, some sheds, some outhouses. We don't lose a lot of stuff up here because we don't have the same amount of people living in the woods and the people that live in the woods in Oregon, they know what they're doing.</p>
 
 <p>"People in California, if we're going to generalize, they live out in the woods, they don't have resources or experiences, there's Santa Ana winds, everything is working against them."</p>
 
 <div class="center">
-<img src="images/lossesgraph.gif" alt="Losses from Wildfires">
+  <h3>Wildfire losses in the United States</h3>
+  <p>(2008-2017)</p>
+<img src="images/lossesgraph.gif" alt="Losses from Wildfires"><br>
+ <em>Source: Data collected by The Washington Post 1) Adjusted for inflation by Munich Re based on the Consumer Price Index.</em>
 </div>
-<em>Source: Data collected by The Washington Post 1) Adjusted for inflation by Munich Re based on the Consumer Price Index.
 
-Source: © 2018 Munich Re, NatCatSERVICE.
-
-https://www.iii.org/fact-statistic/facts-statistics-wildfires </em>
+ <br><br>
 
 
 <h2>Top 10 Most Wildfire Prone States, 2017</h2>
@@ -402,6 +392,8 @@ https://www.iii.org/fact-statistic/facts-statistics-wildfires </em>
   </tr>
 </table>
 
+<p class="caption">Source: Verisk Wildfire Risk Analysis used data from FireLine</p>
+
 <br>
 
 <p>Our fire policies try to make room for the scientific consensus that wildfires are beneficial but as we have hotter, more unpredictable fires and more resources at risk, we funnel more money toward wildfire suppression. </p>
@@ -412,16 +404,16 @@ https://www.iii.org/fact-statistic/facts-statistics-wildfires </em>
 
 <section class="main">
 <div class="mb-wrap mb-style-2">
-<blockquote><p>"Wheter that's good news or bad news? Well that's based on human values."</p>
+<blockquote><p>"Whether that's good news or bad news? Well that's based on <span class="red">human values</span>."</p>
 </blockquote>
 
-</div><!--#mb-wrap-->
+</div>
 
       <div class="mb-attribution">
         <p class="mb-author">
           Dr. David L. Peterson
         </p>
-      </div><!-- #mb-attribution-->
+      </div>
 
 <p>Researchers at Colorado State University found that Rocky Mountain forests have decreasing tree regeneration after a massive fire. Before 2000, 70% of sites that experienced wildfire returned to their same density. More recently, its 46%, and some sites didn’t regenerate at all. </p>
 
@@ -434,8 +426,7 @@ https://www.iii.org/fact-statistic/facts-statistics-wildfires </em>
 </div> <!--End Container Div -->
 </body>
 <footer>
-  <p>Samantha Hawkins</p>
-  <p>Contact information: <a href="mailto:samhawk8@umd.edu">
+  <p>Samantha Hawkins<br>Contact information: <a href="mailto:samhawk8@umd.edu">
   samhawk8@umd.edu</a></p>
 </footer>
 
@@ -449,7 +440,7 @@ https://www.iii.org/fact-statistic/facts-statistics-wildfires </em>
       <script type="text/javascript">
       //CHART 1
 
-    //CHART 1
+    //Acres Consumed
     var chart = c3.generate({
       bindto: '#AcresConsumed',
       data: {
@@ -473,7 +464,7 @@ https://www.iii.org/fact-statistic/facts-statistics-wildfires </em>
           }
       });
 
-  //CHART 1
+  //Wildfire Suppression Costs
   var chart = c3.generate({
     bindto: '#Costs',
     data: {
@@ -497,71 +488,7 @@ https://www.iii.org/fact-statistic/facts-statistics-wildfires </em>
     });
 
 
-//PIE CHART
-var chart3 = c3.generate({
-      bindto: '#CausePie',
-      data: {
-        // iris data from R
-        columns: [
-          ['Human', 61952],
-          ['Lightning', 10143],
-        ],
-        type : 'pie',
-        onclick: function (d, i) { console.log("onclick", d, i); },
-        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
-        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
-      },
-      color: {
-        pattern: ['#800000', '#e67300', '#ee6a4b', '#60c4b2', '#973895']
-      }
-
-
-    });
-
-    //PIE CHART
-    var chart3 = c3.generate({
-          bindto: '#LandsPie',
-          data: {
-            // iris data from R
-            columns: [
-              ['Federal', 14533],
-              ['State/Other', 55997],
-            ],
-            type : 'pie',
-            onclick: function (d, i) { console.log("onclick", d, i); },
-            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
-            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
-          },
-          color: {
-            pattern: ['#800000', '#e67300', '#ee6a4b', '#60c4b2', '#973895']
-          }
-
-
-        });
-        //PIE CHART
-        var chart3 = c3.generate({
-              bindto: '#AcresPie',
-              data: {
-                // iris data from R
-                columns: [
-                  ['Federal', 3802403],
-                  ['State/Other', 2752891],
-                ],
-                type : 'pie',
-                onclick: function (d, i) { console.log("onclick", d, i); },
-                onmouseover: function (d, i) { console.log("onmouseover", d, i); },
-                onmouseout: function (d, i) { console.log("onmouseout", d, i); }
-              },
-              color: {
-                pattern: ['#800000', '#e67300', '#ee6a4b', '#60c4b2', '#973895']
-              }
-
-
-            });
-
-
-
-    //WHERE Bar chart
+    //# of fires /Land Management
             var chart2 = c3.generate({
        bindto: '#Lands',
        data: {
@@ -589,7 +516,7 @@ var chart3 = c3.generate({
            }
        });
 
-      //WHERE Bar chart
+      //Acres consumed/land management
             var chart2 = c3.generate({
        bindto: '#LandAcres',
        data: {
@@ -617,48 +544,23 @@ var chart3 = c3.generate({
                }
            });
 
-           var chart = c3.generate({
-             bindto: '#Mitigation',
-             data: {
-               x: 'x',
-               columns: [
-                  ['x', 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015],
-                 ['Fire', 0.549, 0.780, 1.188, 1.413, 1.328, 1.055, 1.350, 1.462, 2.285, 1.570, 1.202, 1.319, 1.443, 1.689, 1.689],
-               ['Mechanical', 0.215, 0.176, 0.301, 0.730, 0.791, 0.919, 0.636, 1.041, 1.266, 1.029, 1.038, 1.145, 0.720, 0.680, 0.680 ],
-                  ['Other', 0.012, 0.017, 0.105, 0.117, 0.148, 0.203, 0.519, 0.076, 0.062, 0.092, 0.093, 0.161, 0.061, 0.062, 0.062],
-             ]
-             },
-
-             color: {
-               pattern: ['#800000', '#ee6a4b', '#ee6a4b', '#60c4b2', '#973895']
-             },
-                 axis : {
-                     y : {
-                         tick: {
-                             format: d3.format(",")
-             //                format: function (d) { return "$" + d; }
-                         }
-                     }
-                 }
-             });
-
-             //WHERE Bar chart
+ //Mitigation
                    var chart2 = c3.generate({
               bindto: '#Mitigation',
               data: {
                 columns: [
                   ['Federal Fire', 18.638],
-                  ['WUI Fire', 16.816],
                   ['Federal Mechanical', 10.657],
-                  ['WUI Mechanical', 6.595],
                   ['Federal Other', 1.690],
+                  ['WUI Fire', 16.816],
+                  ['WUI Mechanical', 6.595],
                   ['WUI Other', 1.636],
 
                     ],
                     type: 'bar'
                   },
                   color: {
-                    pattern: ['black', 'grey', '#FF8C00', '#ffcc66', '#e60000']
+                    pattern: ['#267136', '#6F9D79', '#9FABA2', '#25462D', '#AFE8BD', '#27472E']
                 },
                       axis : {
                           y : {
